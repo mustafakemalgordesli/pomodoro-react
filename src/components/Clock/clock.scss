@@ -1,0 +1,42 @@
+#clock h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+}
+
+.clock {
+  &-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: normal;
+  }
+
+  &-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 125px;
+    width: 32%;
+    color: #4a4f5a;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding: 0px 40px;
+    font-size: 70px;
+    letter-spacing: 5px;
+    font-family: "Orbitron", sans-serif;
+
+    & p {
+      margin: 0;
+      padding: 0;
+      border-radius: 5px;
+    }
+  }
+}
+
+p {
+  text-align: center;
+}
