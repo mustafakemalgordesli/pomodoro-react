@@ -2,7 +2,7 @@
 
 ## Pomodoro timer built with React
 
-![homescreen](homescreen.png)
+<img alt="homescreen" src="./homescreen.PNG" />
 
 ### Available Scripts
 
